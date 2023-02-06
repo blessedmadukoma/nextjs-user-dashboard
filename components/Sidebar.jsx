@@ -50,5 +50,3 @@ const Sidebar = ({ children }) => {
 };
 
 export default Sidebar;
-
-// wrapped everything in _app.js using the Sidebar component so it stays on all the pages
