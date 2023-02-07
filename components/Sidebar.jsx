@@ -44,7 +44,8 @@ const Sidebar = ({ children }) => {
           </section>
         </div>
       </aside>
-      <main className="ml-20 w-full">{children}</main>
+      {/* <main className="ml-20 w-full">{children}</main> */}
+      <main className="ml-20">{children}</main>
     </section>
   );
 };
