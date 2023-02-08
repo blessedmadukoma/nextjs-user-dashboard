@@ -3,6 +3,8 @@ import Head from "next/head";
 import Image from "next/image";
 
 import Header from "../components/Header";
+import Barchart from "@/components/Barchart";
+import RecentOrders from "@/components/RecentOrders";
 
 export default function Home() {
   return (
@@ -16,6 +18,10 @@ export default function Home() {
       <main className="bg-gray-100 min-h-screen">
         <Header />
         <TopCards />
+        <div className="p-4 grid md:grid-cols-3 gap-4">
+          <Barchart />
+          <RecentOrders />
+        </div>
       </main>
     </>
   );
